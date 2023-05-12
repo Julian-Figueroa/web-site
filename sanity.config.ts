@@ -2,10 +2,8 @@ import { defineConfig } from 'sanity';
 import { deskTool } from 'sanity/desk';
 import schemas from './sanity/schemas';
 
-const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || '';
-
 const config = defineConfig({
-  projectId,
+  projectId: '13a48i1d',
   dataset: 'production',
   title: 'Portfolio',
   apiVersion: '2023-05-10',
